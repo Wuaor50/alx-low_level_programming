@@ -1,10 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdlib.h>
 
 /**
-* main - Print variable n is positive or negative
+* main - Entry point
 *
-* Return: 0
+* Descrption:  Determine if a random number is positive, negative or zero.
+* Return: 0 on success
 */
 int main(void)
 {
