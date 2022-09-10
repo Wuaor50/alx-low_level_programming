@@ -10,10 +10,11 @@ int main(void)
 {
 	int i;
 	int j;
+	int n = 1;
 
 	for (i = 0; i < 9; i++)
 	{
-		for (j = 1; j < 10; j++)
+		for (j = n; j < 10; j++)
 		{
 			putchar((i % 10) + '0');
 			putchar((j % 10) + '0');
@@ -22,6 +23,7 @@ int main(void)
 			putchar(',');
 			putchar(' ');
 		}
+		n++;
 	}
 	putchar('\n');
 	return (0);
