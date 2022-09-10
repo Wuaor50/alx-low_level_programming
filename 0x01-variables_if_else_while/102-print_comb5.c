@@ -1,9 +1,9 @@
 #include<stdio.h>
 
 /**
- * main - Entry point 
+ * main - Entry point
  *
- * Description: Write a program comb of two two-digit numbers.
+ * Description: Write
  * Return: 0
  */
 int main(void)
