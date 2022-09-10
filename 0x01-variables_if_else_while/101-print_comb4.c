@@ -11,14 +11,12 @@ int main(void)
 	int i;
 	int j;
 	int k;
-	int a = 1;
-	int b = 2;
 
 	for (i = 0; i < 8; i++)
 	{
-		for (j = a; j < 9; j++)
+		for (j = i + 1; j < 9; j++)
 		{
-			for (k = b; k < 10; k++)
+			for (k = j + 1; k < 10; k++)
 			{
 				putchar((i % 10) + '0');
 				putchar((j % 10) + '0');
@@ -29,8 +27,6 @@ int main(void)
 				putchar(' ');
 			}
 		}
-		a++;
-		b++;
 	}
 	putchar('\n');
 	return (0);
