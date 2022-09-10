@@ -28,9 +28,9 @@ int main(void)
 				putchar(',');
 				putchar(' ');
 			}
-			b++;
 		}
 		a++;
+		b++;
 	}
 	putchar('\n');
 	return (0);
