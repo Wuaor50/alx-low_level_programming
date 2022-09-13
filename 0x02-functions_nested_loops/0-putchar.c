@@ -1,4 +1,4 @@
-#include<_putchar.h>
+#include "main.h"
 
 /**
  * main - Entrance point
@@ -13,8 +13,8 @@ int main(void)
 
 	for (i = 0; i <= 7; i++)
 	{
-		putchar(array[i]);
-		putchar('\n');
+		_putchar(array[i]);
+		_putchar('\n');
 	}
 	return (0);
 }
