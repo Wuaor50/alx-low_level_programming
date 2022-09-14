@@ -1,10 +1,15 @@
-#include "main.h"
+/*
+ *  * File: 0-holberton.c
+ *   * Auth: Brennan D Baraban
+ *
+ */
+
+#include "holberton.h"
 
 /**
- * main - Entrance point
+ * main - Prints "Holberton" followed by a new line.
  *
- * Descrption:print Putchar
- * Return/; 0 on success
+ * Return: Always 0.
  */
 int main(void)
 {
