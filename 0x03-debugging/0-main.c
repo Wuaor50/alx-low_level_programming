@@ -1,10 +1,10 @@
 #define "main.h"
 
-/*
- * main - test fuction that print if integer is negative or positive
- *
- * Return: 0 Always
+/**
+ * main - tests function that prints if integer is positive or negative
+ * Return: 0
  */
+
 int main(void)
 {
 	int i;
