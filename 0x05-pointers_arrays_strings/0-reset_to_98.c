@@ -1,9 +1,9 @@
 #include <main.h>
 
-/*
- * reset_to_98 - function that takes a pointer to an int as
+/**
+ * reset_to_98 - function with one argument
  *
- * @n: pointer variable
+ * @n: int type pointer variable
  *
  * Description: 'update a pointer'
  *
