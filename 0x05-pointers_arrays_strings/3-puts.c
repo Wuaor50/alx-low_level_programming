@@ -1,27 +1,18 @@
+/*
+ * File: 3-puts.c
+ * Auth: Brennan D Baraban
+ */
+
 #include "main.h"
 
 /**
- * _puts - function with one argument
- *
- * @str: one char type argument
- *
- * Description: print a string follow by a new line to stdout
- *
- * Return: none
+ * _puts - Prints a string to stdout.
+ * @str: The string to be printed.
  */
 void _puts(char *str)
 {
-	int i = 0;
-
-	while (*(str + i))
-
-	{
-
-		_putchar(*(str + i));
-
-		i++;
-
-	}
+	while (*str)
+		_putchar(*str++);
 
 	_putchar('\n');
 }
