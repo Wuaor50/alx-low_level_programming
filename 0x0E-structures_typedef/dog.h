@@ -2,8 +2,6 @@
 
 #define _DOG_H_
 
-
-
 /**
  * struct dog - information about dogs
  * @name: name of dog
@@ -12,7 +10,6 @@
  */
 
 struct dog
-
 {
 
 	char *name;
@@ -26,7 +23,6 @@ struct dog
 /**
  * dog_t - Typedef for struct dog
  */
-
 typedef struct dog dog_t;
 
 int _putchar(char);
