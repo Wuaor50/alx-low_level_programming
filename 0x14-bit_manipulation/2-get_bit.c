@@ -1,18 +1,16 @@
 #include "main.h"
+
 /**
- * get_bit - Entry Point
- * @n: input
- * @index: index
- * Return: 0
+ * get_bit - gets the bit at the index
+ * @n: the number to index
+ * @index: the bit to get
+ *
+ * Return: the bit state or -1 on error
  */
 int get_bit(unsigned long int n, unsigned int index)
 {
-	unsigned int bits;
-
-	bits = (n >> index) & 1;
-
-	if ((bits == 1) || (bits == 0))
-		return (bits);
-	else
+	if (index >= sizeof(n) * 8)
 		return (-1);
+
+	return (n >> index & 1);
 }
