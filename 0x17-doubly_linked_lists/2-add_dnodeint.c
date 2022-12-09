@@ -20,7 +20,7 @@ dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 		return  NULL;
 	}
 	temp = malloc(sizeof(dlistint_t));
-	if (temp != NULL)
+	if (temp == NULL)
 	{
 		return (NULL);
 	}
